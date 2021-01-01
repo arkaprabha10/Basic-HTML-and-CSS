@@ -33,14 +33,28 @@
 
         <a href="https://www.google.com">This is a hyperlink to another website</a>
         <p></p>
+        <!-- This is for image embedding -->
+        <!-- Figure is not only used for image but also for overall modularity with other elements -->
         <figure>
             <img src="images/dog-1.jpg" alt="My test image" width="400" height="200" title="This is the title of the image">
             <figcaption> This is the caption </figcaption>
         </figure>
+        
+        <!-- This is for video embedding -->
+        <!-- .vtt file can be used for subtitle -->
+        
         <video controls poster="images/dog-1.jpg">
             <source src= "images/video-1.mp4" type="video/mp4">
             <p> This codec is not supported </p>>
         </video>
+
+        <!-- This is for audio embedding. Controls has same options as video except poster, width, height -->
+        <audio controls>
+            <source src="images/audio-1.mp3" type="audio/mp3">
+                <p>The audio codec may not be supported</p>
+        </audio>
+
+
     </body>
 
 
