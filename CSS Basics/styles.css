@@ -1,0 +1,37 @@
+h1
+{
+    color:peachpuff;
+}
+
+h2{
+    color:violet
+}
+
+p
+{
+    font-style: italic;
+}
+
+ul{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: initial;
+    color: lawngreen;
+}
+
+marquee{
+    font-size: x-large;
+    color: grey;
+}
+
+body{
+    background-color: lightsalmon;
+}
+/* create a new class and use it in a customized sense */
+.special{
+    color:brown
+}
+/*+ connector is used for consecutive appearance. the tag after + is modified*/
+h2+p{
+    font-size: 400%;
+}
