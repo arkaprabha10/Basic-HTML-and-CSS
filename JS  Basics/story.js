@@ -12,12 +12,15 @@ function Generate()
     {
         let str = temp_name + " "+ arr[random]
     para.textContent = str
-    para.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    // para.css('text-decoration-color','#'+Math.floor(Math.random()*16777215).toString(16));
+    // para.style.TextDecorationColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.backgroundColor = 'green';
     console.log(random, arr[random]);  
     }
     else
     {
         alert('Value not entered');
+        document.body.style.backgroundColor = 'red';
     }
 }
 
